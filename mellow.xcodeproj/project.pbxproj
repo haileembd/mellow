@@ -17,6 +17,8 @@
 		A8B07D0F26A7571C005ABC4A /* mellow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8B07D0D26A7571C005ABC4A /* mellow.xcdatamodeld */; };
 		A8B07D1126A7571D005ABC4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8B07D1026A7571D005ABC4A /* Assets.xcassets */; };
 		A8B07D1426A7571D005ABC4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8B07D1226A7571D005ABC4A /* LaunchScreen.storyboard */; };
+		A8B07D1E26A877CD005ABC4A /* Lora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8B07D1D26A877CD005ABC4A /* Lora-Bold.ttf */; };
+		A8B07D2026A87983005ABC4A /* Lora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8B07D1F26A87983005ABC4A /* Lora-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		A8B07D1026A7571D005ABC4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8B07D1326A7571D005ABC4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8B07D1526A7571D005ABC4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8B07D1D26A877CD005ABC4A /* Lora-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lora-Bold.ttf"; path = "../../../../Downloads/Lora/static/Lora-Bold.ttf"; sourceTree = "<group>"; };
+		A8B07D1F26A87983005ABC4A /* Lora-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lora-Regular.ttf"; path = "../../../../Downloads/Lora/static/Lora-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 				A8B07D1026A7571D005ABC4A /* Assets.xcassets */,
 				A8B07D1226A7571D005ABC4A /* LaunchScreen.storyboard */,
 				A8B07D1526A7571D005ABC4A /* Info.plist */,
+				A8B07D1F26A87983005ABC4A /* Lora-Regular.ttf */,
+				A8B07D1D26A877CD005ABC4A /* Lora-Bold.ttf */,
 				A8B07D0D26A7571C005ABC4A /* mellow.xcdatamodeld */,
 			);
 			path = mellow;
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8B07D1426A7571D005ABC4A /* LaunchScreen.storyboard in Resources */,
+				A8B07D2026A87983005ABC4A /* Lora-Regular.ttf in Resources */,
+				A8B07D1E26A877CD005ABC4A /* Lora-Bold.ttf in Resources */,
 				A8B07D1126A7571D005ABC4A /* Assets.xcassets in Resources */,
 				A8B07D0C26A7571C005ABC4A /* Main.storyboard in Resources */,
 			);
