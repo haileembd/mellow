@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A83AAA4D26A7CD0E0090F970 /* MedicineTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83AAA4C26A7CD0E0090F970 /* MedicineTracker.swift */; };
+		A83AAA4F26A7CE7B0090F970 /* Mood Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83AAA4E26A7CE7B0090F970 /* Mood Tracker.swift */; };
 		A8B07D0526A7571C005ABC4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B07D0426A7571C005ABC4A /* AppDelegate.swift */; };
 		A8B07D0726A7571C005ABC4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B07D0626A7571C005ABC4A /* SceneDelegate.swift */; };
 		A8B07D0926A7571C005ABC4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B07D0826A7571C005ABC4A /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A83AAA4C26A7CD0E0090F970 /* MedicineTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineTracker.swift; sourceTree = "<group>"; };
+		A83AAA4E26A7CE7B0090F970 /* Mood Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mood Tracker.swift"; sourceTree = "<group>"; };
 		A8B07D0126A7571C005ABC4A /* mellow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mellow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B07D0426A7571C005ABC4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8B07D0626A7571C005ABC4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 				A8B07D0626A7571C005ABC4A /* SceneDelegate.swift */,
 				A8B07D0826A7571C005ABC4A /* ViewController.swift */,
 				A8B07D0A26A7571C005ABC4A /* Main.storyboard */,
+				A83AAA4E26A7CE7B0090F970 /* Mood Tracker.swift */,
+				A83AAA4C26A7CD0E0090F970 /* MedicineTracker.swift */,
 				A8B07D1026A7571D005ABC4A /* Assets.xcassets */,
 				A8B07D1226A7571D005ABC4A /* LaunchScreen.storyboard */,
 				A8B07D1526A7571D005ABC4A /* Info.plist */,
@@ -140,7 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A83AAA4D26A7CD0E0090F970 /* MedicineTracker.swift in Sources */,
 				A8B07D0926A7571C005ABC4A /* ViewController.swift in Sources */,
+				A83AAA4F26A7CE7B0090F970 /* Mood Tracker.swift in Sources */,
 				A8B07D0526A7571C005ABC4A /* AppDelegate.swift in Sources */,
 				A8B07D0726A7571C005ABC4A /* SceneDelegate.swift in Sources */,
 				A8B07D0F26A7571C005ABC4A /* mellow.xcdatamodeld in Sources */,

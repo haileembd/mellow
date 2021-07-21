@@ -10,7 +10,11 @@ import UIKit
 class ViewController: UIViewController {
 
     
-    @IBAction func hiyaBtn(_ sender: UIButton) {
+    @IBAction func alexBtn(_ sender: UIButton) {
+    }
+    
+    
+    @IBAction func sammyBtn(_ sender: UIButton) {
     }
     
     override func viewDidLoad() {
