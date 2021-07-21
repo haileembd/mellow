@@ -1,20 +1,16 @@
 //
-//  About Mellow.swift
+//  About Mellow2.swift
 //  mellow
 //
-//  Created by  Scholar on 7/20/21.
+//  Created by  Scholar on 7/21/21.
 //
 
 import UIKit
 
-class About_Mellow: UIViewController {
+class About_Mellow2: UIViewController {
 
-    
-    @IBAction func close_Btn(_ sender: Any) {
-    }
-    
-    @IBAction func next_Btn(_ sender: UIButton) {
-    }
+    @IBOutlet weak var backBtn: UIButton!
+    @IBOutlet weak var cancel_Btn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
