@@ -17,6 +17,13 @@ class ViewController: UIViewController {
     @IBAction func sammyBtn(_ sender: UIButton) {
     }
     
+    @IBAction func abtBtn(_ sender: UIButton) {
+    }
+    
+    @IBAction func settingsBtn(_ sender: UIButton) {
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
