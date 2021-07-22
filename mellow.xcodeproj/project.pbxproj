@@ -29,8 +29,6 @@
 		04133B2626A8DBDA0023B615 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 		04133B2826A8E2290023B615 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
 		04133B2A26A908820023B615 /* WeeklyView.swfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyView.swfit.swift; sourceTree = "<group>"; };
-		049991C726A8AE7700DEF2FA /* Lora-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lora-Regular.ttf"; path = "../../../../Downloads/Lora/static/Lora-Regular.ttf"; sourceTree = "<group>"; };
-		049991C826A8AE8700DEF2FA /* Lora-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lora-Bold.ttf"; path = "../../../../Downloads/Lora/static/Lora-Bold.ttf"; sourceTree = "<group>"; };
 		A83AAA4C26A7CD0E0090F970 /* MedicineTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineTracker.swift; sourceTree = "<group>"; };
 		A83AAA4E26A7CE7B0090F970 /* Mood Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mood Tracker.swift"; sourceTree = "<group>"; };
 		A88986C226A7DB850047A722 /* About Mellow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "About Mellow.swift"; sourceTree = "<group>"; };
@@ -93,9 +91,7 @@
 				A8B07D1226A7571D005ABC4A /* LaunchScreen.storyboard */,
 				A8B07D1526A7571D005ABC4A /* Info.plist */,
 				A8B07D1F26A87983005ABC4A /* Lora-Regular.ttf */,
-				049991C726A8AE7700DEF2FA /* Lora-Regular.ttf */,
 				A8B07D1D26A877CD005ABC4A /* Lora-Bold.ttf */,
-				049991C826A8AE8700DEF2FA /* Lora-Bold.ttf */,
 				A8B07D0D26A7571C005ABC4A /* mellow.xcdatamodeld */,
 			);
 			path = mellow;
