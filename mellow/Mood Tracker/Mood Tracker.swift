@@ -7,23 +7,25 @@
 
 import UIKit
 
-class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+class Mood_Tracker: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
      
     @IBOutlet weak var monthLabel: UILabel!
     
     @IBOutlet weak var collectionView: UICollectionView!
     
     var selectedDate = Date()
+    var totalSquares = [String]()
     
-    var totalSquares = [String] ()
     
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         setCellsView()
         setMonthView()
     }
     
-    func setCellsView() {
+    func setCellsView()
+    {
         let width = (collectionView.frame.size.width - 2) / 8
         let height = (collectionView.frame.size.height - 2) / 8
         
@@ -31,7 +33,8 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
         flowLayout.itemSize = CGSize(width: width, height: height)
     }
     
-    func setMonthView(){
+    func setMonthView()
+    {
         totalSquares.removeAll()
         
         let daysInMonth = CalendarHelper().daysInMonth(date: selectedDate)
@@ -40,28 +43,33 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
         
         var count: Int = 1
         
-        while(count<=42){
-            if (count <= startingSpaces || count - startingSpaces > daysInMonth){
+        while(count <= 42)
+        {
+            if(count <= startingSpaces || count - startingSpaces > daysInMonth)
+            {
                 totalSquares.append("")
-            }else{
+            }
+            else
+            {
                 totalSquares.append(String(count - startingSpaces))
             }
-            count+=1
+            count += 1
         }
         
-        monthLabel.text = CalendarHelper().monthString(date: selectedDate) + " " + CalendarHelper().yearString(date: selectedDate)
+        monthLabel.text = CalendarHelper().monthString(date: selectedDate)
+            + " " + CalendarHelper().yearString(date: selectedDate)
         collectionView.reloadData()
     }
-    
-    
-    
+
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return totalSquares.count
+        totalSquares.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "calCell", for: indexPath) as! CalendarCell
+        
         cell.dayOfMonth.text = totalSquares[indexPath.item]
+        
         return cell
     }
     
@@ -75,18 +83,8 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
         setMonthView()
     }
     
-    override open var shouldAutorotate: Bool{
+    override open var shouldAutorotate: Bool
+    {
         return false
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

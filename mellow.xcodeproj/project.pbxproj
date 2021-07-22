@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		04133B2726A8DBDA0023B615 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04133B2626A8DBDA0023B615 /* CalendarCell.swift */; };
 		04133B2926A8E2290023B615 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04133B2826A8E2290023B615 /* CalendarHelper.swift */; };
-		04133B2B26A908820023B615 /* WeeklyView.swfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04133B2A26A908820023B615 /* WeeklyView.swfit.swift */; };
 		A83AAA4D26A7CD0E0090F970 /* MedicineTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83AAA4C26A7CD0E0090F970 /* MedicineTracker.swift */; };
 		A83AAA4F26A7CE7B0090F970 /* Mood Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83AAA4E26A7CE7B0090F970 /* Mood Tracker.swift */; };
 		A88986C326A7DB850047A722 /* About Mellow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88986C226A7DB850047A722 /* About Mellow.swift */; };
@@ -28,7 +27,6 @@
 /* Begin PBXFileReference section */
 		04133B2626A8DBDA0023B615 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 		04133B2826A8E2290023B615 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
-		04133B2A26A908820023B615 /* WeeklyView.swfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyView.swfit.swift; sourceTree = "<group>"; };
 		A83AAA4C26A7CD0E0090F970 /* MedicineTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineTracker.swift; sourceTree = "<group>"; };
 		A83AAA4E26A7CE7B0090F970 /* Mood Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mood Tracker.swift"; sourceTree = "<group>"; };
 		A88986C226A7DB850047A722 /* About Mellow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "About Mellow.swift"; sourceTree = "<group>"; };
@@ -57,6 +55,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A8296D3026A9C5E000F77216 /* Mood Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				A83AAA4E26A7CE7B0090F970 /* Mood Tracker.swift */,
+				04133B2626A8DBDA0023B615 /* CalendarCell.swift */,
+				04133B2826A8E2290023B615 /* CalendarHelper.swift */,
+			);
+			path = "Mood Tracker";
+			sourceTree = "<group>";
+		};
 		A8B07CF826A7571C005ABC4A = {
 			isa = PBXGroup;
 			children = (
@@ -76,17 +84,14 @@
 		A8B07D0326A7571C005ABC4A /* mellow */ = {
 			isa = PBXGroup;
 			children = (
-				04133B2A26A908820023B615 /* WeeklyView.swfit.swift */,
-				04133B2626A8DBDA0023B615 /* CalendarCell.swift */,
+				A8B07D0A26A7571C005ABC4A /* Main.storyboard */,
 				A8B07D0426A7571C005ABC4A /* AppDelegate.swift */,
 				A8B07D0626A7571C005ABC4A /* SceneDelegate.swift */,
 				A8B07D0826A7571C005ABC4A /* ViewController.swift */,
-				A88986C626A89ABA0047A722 /* About Mellow2.swift */,
-				A8B07D0A26A7571C005ABC4A /* Main.storyboard */,
-				04133B2826A8E2290023B615 /* CalendarHelper.swift */,
 				A88986C226A7DB850047A722 /* About Mellow.swift */,
-				A83AAA4E26A7CE7B0090F970 /* Mood Tracker.swift */,
+				A88986C626A89ABA0047A722 /* About Mellow2.swift */,
 				A83AAA4C26A7CD0E0090F970 /* MedicineTracker.swift */,
+				A8296D3026A9C5E000F77216 /* Mood Tracker */,
 				A8B07D1026A7571D005ABC4A /* Assets.xcassets */,
 				A8B07D1226A7571D005ABC4A /* LaunchScreen.storyboard */,
 				A8B07D1526A7571D005ABC4A /* Info.plist */,
@@ -169,7 +174,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04133B2B26A908820023B615 /* WeeklyView.swfit.swift in Sources */,
 				A88986C326A7DB850047A722 /* About Mellow.swift in Sources */,
 				A83AAA4D26A7CD0E0090F970 /* MedicineTracker.swift in Sources */,
 				A8B07D0926A7571C005ABC4A /* ViewController.swift in Sources */,
