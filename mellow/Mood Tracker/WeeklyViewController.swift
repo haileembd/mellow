@@ -14,7 +14,7 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
     @IBOutlet weak var collectionView: UICollectionView!
     
     var selectedDate = Date()
-    var totalSquares = [String]()
+    var totalSquares = [Date]()
     
     
     override func viewDidLoad()
@@ -37,23 +37,12 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
     {
         totalSquares.removeAll()
         
-        let daysInMonth = CalendarHelper().daysInMonth(date: selectedDate)
-        let firstDayOfMonth = CalendarHelper().firstOfMonth(date: selectedDate)
-        let startingSpaces = CalendarHelper().weekDay(date: firstDayOfMonth)
+        var current = CalendarHelper().sundayForDate(date: selectedDate)
+        let nextSunday = CalendarHelper().addDays(date: current, days: 7)
         
-        var count: Int = 1
-        
-        while(count <= 42)
-        {
-            if(count <= startingSpaces || count - startingSpaces > daysInMonth)
-            {
-                totalSquares.append("")
-            }
-            else
-            {
-                totalSquares.append(String(count - startingSpaces))
-            }
-            count += 1
+        while(current < nextSunday){
+            totalSquares.append(current)
+            current = CalendarHelper().addDays(date: current, days: 1)
         }
         
         monthLabel.text = CalendarHelper().monthString(date: selectedDate)
@@ -67,19 +56,33 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "calCell", for: indexPath) as! CalendarCell
+        let date = totalSquares[indexPath.item]
+        cell.dayOfMonth.text = String(CalendarHelper().dayOfMonth(date: date))
         
-        cell.dayOfMonth.text = totalSquares[indexPath.item]
+        if(date == selectedDate){
+            cell.backgroundColor = UIColor.systemGreen
+        } else{
+            cell.backgroundColor = UIColor.white
+        }
         
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        selectedDate = totalSquares[indexPath.item]
+        collectionView.reloadData()
+    }
+    
+    
+    
+    
     @IBAction func previousWeek(_ sender: Any) {
-        selectedDate = CalendarHelper().minusMonth(date: selectedDate)
+        selectedDate = CalendarHelper().addDays(date: selectedDate, days: -7)
         setMonthView()
     }
     
     @IBAction func nextWeek(_ sender: Any) {
-        selectedDate = CalendarHelper().plusMonth(date: selectedDate)
+        selectedDate = CalendarHelper().addDays(date: selectedDate, days: 7)
         setMonthView()
     }
     

@@ -701,6 +701,10 @@
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="JVn-jT-Bzz" id="Zp7-CG-1cQ"/>
+                                    <outlet property="delegate" destination="JVn-jT-Bzz" id="meJ-aP-o2G"/>
+                                </connections>
                             </collectionView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lhh-sc-uN5">
                                 <rect key="frame" x="-1" y="765" width="415" height="131"/>
