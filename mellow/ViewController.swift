@@ -29,9 +29,5 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    // HI GUYS THIS IS SREYA B)
-
-    //minervas plants are sus
-    // not they're not; :slight_smile: is
 }
 

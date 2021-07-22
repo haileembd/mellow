@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04133B2726A8DBDA0023B615 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04133B2626A8DBDA0023B615 /* CalendarCell.swift */; };
+		04133B2926A8E2290023B615 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04133B2826A8E2290023B615 /* CalendarHelper.swift */; };
+		04133B2B26A908820023B615 /* WeeklyView.swfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04133B2A26A908820023B615 /* WeeklyView.swfit.swift */; };
 		A83AAA4D26A7CD0E0090F970 /* MedicineTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83AAA4C26A7CD0E0090F970 /* MedicineTracker.swift */; };
 		A83AAA4F26A7CE7B0090F970 /* Mood Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83AAA4E26A7CE7B0090F970 /* Mood Tracker.swift */; };
 		A88986C326A7DB850047A722 /* About Mellow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88986C226A7DB850047A722 /* About Mellow.swift */; };
@@ -23,6 +26,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04133B2626A8DBDA0023B615 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		04133B2826A8E2290023B615 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		04133B2A26A908820023B615 /* WeeklyView.swfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyView.swfit.swift; sourceTree = "<group>"; };
+		049991C726A8AE7700DEF2FA /* Lora-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lora-Regular.ttf"; path = "../../../../Downloads/Lora/static/Lora-Regular.ttf"; sourceTree = "<group>"; };
+		049991C826A8AE8700DEF2FA /* Lora-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lora-Bold.ttf"; path = "../../../../Downloads/Lora/static/Lora-Bold.ttf"; sourceTree = "<group>"; };
 		A83AAA4C26A7CD0E0090F970 /* MedicineTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineTracker.swift; sourceTree = "<group>"; };
 		A83AAA4E26A7CE7B0090F970 /* Mood Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mood Tracker.swift"; sourceTree = "<group>"; };
 		A88986C226A7DB850047A722 /* About Mellow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "About Mellow.swift"; sourceTree = "<group>"; };
@@ -70,11 +78,14 @@
 		A8B07D0326A7571C005ABC4A /* mellow */ = {
 			isa = PBXGroup;
 			children = (
+				04133B2A26A908820023B615 /* WeeklyView.swfit.swift */,
+				04133B2626A8DBDA0023B615 /* CalendarCell.swift */,
 				A8B07D0426A7571C005ABC4A /* AppDelegate.swift */,
 				A8B07D0626A7571C005ABC4A /* SceneDelegate.swift */,
 				A8B07D0826A7571C005ABC4A /* ViewController.swift */,
 				A88986C626A89ABA0047A722 /* About Mellow2.swift */,
 				A8B07D0A26A7571C005ABC4A /* Main.storyboard */,
+				04133B2826A8E2290023B615 /* CalendarHelper.swift */,
 				A88986C226A7DB850047A722 /* About Mellow.swift */,
 				A83AAA4E26A7CE7B0090F970 /* Mood Tracker.swift */,
 				A83AAA4C26A7CD0E0090F970 /* MedicineTracker.swift */,
@@ -82,7 +93,9 @@
 				A8B07D1226A7571D005ABC4A /* LaunchScreen.storyboard */,
 				A8B07D1526A7571D005ABC4A /* Info.plist */,
 				A8B07D1F26A87983005ABC4A /* Lora-Regular.ttf */,
+				049991C726A8AE7700DEF2FA /* Lora-Regular.ttf */,
 				A8B07D1D26A877CD005ABC4A /* Lora-Bold.ttf */,
+				049991C826A8AE8700DEF2FA /* Lora-Bold.ttf */,
 				A8B07D0D26A7571C005ABC4A /* mellow.xcdatamodeld */,
 			);
 			path = mellow;
@@ -160,10 +173,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04133B2B26A908820023B615 /* WeeklyView.swfit.swift in Sources */,
 				A88986C326A7DB850047A722 /* About Mellow.swift in Sources */,
 				A83AAA4D26A7CD0E0090F970 /* MedicineTracker.swift in Sources */,
 				A8B07D0926A7571C005ABC4A /* ViewController.swift in Sources */,
 				A88986C726A89ABA0047A722 /* About Mellow2.swift in Sources */,
+				04133B2726A8DBDA0023B615 /* CalendarCell.swift in Sources */,
+				04133B2926A8E2290023B615 /* CalendarHelper.swift in Sources */,
 				A83AAA4F26A7CE7B0090F970 /* Mood Tracker.swift in Sources */,
 				A8B07D0526A7571C005ABC4A /* AppDelegate.swift in Sources */,
 				A8B07D0726A7571C005ABC4A /* SceneDelegate.swift in Sources */,

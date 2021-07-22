@@ -7,7 +7,7 @@
 
 import UIKit
 
-class Mood_Tracker: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
      
     @IBOutlet weak var monthLabel: UILabel!
     

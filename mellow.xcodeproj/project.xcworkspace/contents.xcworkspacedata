@@ -2,13 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../../../../Downloads/Lora/static/Lora-Regular.ttf">
-   </FileRef>
-   <Group
-      location = "container:"
-      name = "fonts">
-   </Group>
-   <FileRef
       location = "self:">
    </FileRef>
 </Workspace>
