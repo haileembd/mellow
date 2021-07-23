@@ -17,7 +17,12 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
     @IBOutlet weak var tableView: UITableView!
     
     
+<<<<<<< HEAD
     var totalSquares = [Date]()
+=======
+    var selectedDate = Date()
+    var totalSquares = [String]()
+>>>>>>> parent of 3d2c81a (HELLO)
     
     
     override func viewDidLoad()
@@ -40,12 +45,23 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
     {
         totalSquares.removeAll()
         
-        var current = CalendarHelper().sundayForDate(date: selectedDate)
-        let nextSunday = CalendarHelper().addDays(date: current, days: 7)
+        let daysInMonth = CalendarHelper().daysInMonth(date: selectedDate)
+        let firstDayOfMonth = CalendarHelper().firstOfMonth(date: selectedDate)
+        let startingSpaces = CalendarHelper().weekDay(date: firstDayOfMonth)
         
-        while(current < nextSunday){
-            totalSquares.append(current)
-            current = CalendarHelper().addDays(date: current, days: 1)
+        var count: Int = 1
+        
+        while(count <= 42)
+        {
+            if(count <= startingSpaces || count - startingSpaces > daysInMonth)
+            {
+                totalSquares.append("")
+            }
+            else
+            {
+                totalSquares.append(String(count - startingSpaces))
+            }
+            count += 1
         }
         
         monthLabel.text = CalendarHelper().monthString(date: selectedDate)
@@ -60,18 +76,13 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "calCell", for: indexPath) as! CalendarCell
-        let date = totalSquares[indexPath.item]
-        cell.dayOfMonth.text = String(CalendarHelper().dayOfMonth(date: date))
         
-        if(date == selectedDate){
-            cell.backgroundColor = UIColor.systemGreen
-        } else{
-            cell.backgroundColor = UIColor.white
-        }
+        cell.dayOfMonth.text = totalSquares[indexPath.item]
         
         return cell
     }
     
+<<<<<<< HEAD
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         selectedDate = totalSquares[indexPath.item]
         collectionView.reloadData()
@@ -86,6 +97,16 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
     @IBAction func nextWeek(_ sender: Any) {
         selectedDate = CalendarHelper().addDays(date: selectedDate, days: 7)
         setWeekView()
+=======
+    @IBAction func previousWeek(_ sender: Any) {
+        selectedDate = CalendarHelper().minusMonth(date: selectedDate)
+        setMonthView()
+    }
+    
+    @IBAction func nextWeek(_ sender: Any) {
+        selectedDate = CalendarHelper().plusMonth(date: selectedDate)
+        setMonthView()
+>>>>>>> parent of 3d2c81a (HELLO)
     }
     
     override open var shouldAutorotate: Bool
