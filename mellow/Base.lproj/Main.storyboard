@@ -23,7 +23,7 @@
             <objects>
                 <viewController id="hCm-jX-LTg" customClass="About_Mellow" customModule="mellow" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="W4e-TY-XtN">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IGH-eI-hZr">
@@ -153,7 +153,7 @@
             <objects>
                 <viewController id="bqy-kU-boa" customClass="About_Mellow2" customModule="mellow" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" opaque="NO" contentMode="scaleToFill" id="knN-Bo-qsg">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ohw-1M-DfT">
@@ -165,28 +165,28 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="sreya suresh" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XCe-0A-ol9">
-                                                <rect key="frame" x="82" y="74" width="166" height="53"/>
+                                                <rect key="frame" x="86" y="80" width="166" height="53"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Lora-Bold" family="Lora" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="minerva sharma" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rhC-sJ-X2B">
-                                                <rect key="frame" x="108" y="196" width="166" height="53"/>
+                                                <rect key="frame" x="100" y="214" width="166" height="53"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Lora-Bold" family="Lora" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="hailee davis" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iYg-jo-mxO">
-                                                <rect key="frame" x="109" y="327" width="112" height="26"/>
+                                                <rect key="frame" x="105" y="347" width="112" height="26"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Lora-Bold" family="Lora" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="iman suleman" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w6v-GC-f0Y">
-                                                <rect key="frame" x="94" y="459" width="166" height="53"/>
+                                                <rect key="frame" x="108" y="461" width="138" height="53"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Lora-Bold" family="Lora" pointSize="20"/>
                                                 <nil key="textColor"/>
@@ -197,49 +197,49 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sreya" translatesAutoresizingMaskIntoConstraints="NO" id="ajO-9T-Yza">
-                                                <rect key="frame" x="25" y="90" width="75" height="75"/>
+                                                <rect key="frame" x="25" y="116" width="75" height="75"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hailee" translatesAutoresizingMaskIntoConstraints="NO" id="GOM-9z-1lm">
-                                                <rect key="frame" x="25" y="341" width="75" height="75"/>
+                                                <rect key="frame" x="25" y="375" width="75" height="75"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="minerva" translatesAutoresizingMaskIntoConstraints="NO" id="QEt-n8-faE">
-                                                <rect key="frame" x="22" y="195" width="80" height="96"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iman" translatesAutoresizingMaskIntoConstraints="NO" id="tzA-6L-a0N">
-                                                <rect key="frame" x="22" y="459" width="80" height="96"/>
+                                                <rect key="frame" x="22" y="233" width="80" height="96"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I’m a senior in Frisco, Texas. I love computer science, video games, and art. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J3a-Ng-aGf">
-                                                <rect key="frame" x="108" y="104" width="184" height="107"/>
+                                                <rect key="frame" x="108" y="108" width="184" height="107"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Lora-Regular" family="Lora" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I’m going to UT Austin and my interests are music, and activism!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lIC-Zb-nvD">
-                                                <rect key="frame" x="108" y="225" width="184" height="107"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I’m going to UT Austin and my interests are music and activism!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lIC-Zb-nvD">
+                                                <rect key="frame" x="105" y="229" width="184" height="107"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Lora-Regular" family="Lora" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I’m a HS junior. My hobbies are art, reading, and researching meteorology!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tDK-sB-p4U">
-                                                <rect key="frame" x="108" y="344" width="184" height="123"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I’m a HS junior. My hobbies are art and researching meteorology!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tDK-sB-p4U">
+                                                <rect key="frame" x="105" y="351" width="186" height="123"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Lora-Regular" family="Lora" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I’m a HS junior from Texas. My interests are coding, space exploration, and engineering." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wsi-ei-VYH">
-                                                <rect key="frame" x="108" y="489" width="184" height="143"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I’m a HS junior from Texas. My interests are coding, space, and engineering." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wsi-ei-VYH">
+                                                <rect key="frame" x="105" y="475" width="186" height="143"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Lora-Regular" family="Lora" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iman" translatesAutoresizingMaskIntoConstraints="NO" id="tzA-6L-a0N">
+                                                <rect key="frame" x="22" y="492" width="80" height="96"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
@@ -346,7 +346,7 @@
                                 <state key="normal" title="Help_Btn" image="question_homepage"/>
                                 <connections>
                                     <action selector="abtBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NLn-uI-IT9"/>
-                                    <segue destination="hCm-jX-LTg" kind="presentation" modalPresentationStyle="automatic" id="cyT-kq-Zyl"/>
+                                    <segue destination="hCm-jX-LTg" kind="presentation" modalPresentationStyle="overFullScreen" id="cyT-kq-Zyl"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -421,7 +421,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6un-4F-Ygk"/>
-                        <color key="backgroundColor" red="0.92941176889999999" green="0.89803922179999995" blue="0.89803922179999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.87730556729999998" green="0.95984095339999997" blue="0.96643036599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="Q6f-zv-uEU"/>
                 </viewController>
@@ -440,7 +440,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVH-fH-jxO">
                                 <rect key="frame" x="0.0" y="765" width="414" height="131"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.48324066399999999" green="0.57182252410000001" blue="0.66545903679999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.9133304954" green="0.73353224989999999" blue="0.70807439090000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -448,7 +448,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5A-0T-Vwq">
                                 <rect key="frame" x="0.0" y="-87" width="414" height="131"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.48324066399999999" green="0.57182252410000001" blue="0.66545903679999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.9133304954" green="0.73353224989999999" blue="0.70807439090000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -481,22 +481,22 @@
                             <textField contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter in your feelings &lt;3" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r3f-kZ-bPG">
                                 <rect key="frame" x="68" y="320" width="279" height="34"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="11"/>
+                                <fontDescription key="fontDescription" name="Lora-Regular" family="Lora" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How are you today?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8s-Z6-Yve">
-                                <rect key="frame" x="48" y="87" width="318" height="44"/>
+                                <rect key="frame" x="47" y="120" width="318" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Lora-Bold" family="Lora" pointSize="34"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="right_facing_sammy" translatesAutoresizingMaskIntoConstraints="NO" id="6dJ-yV-b0O">
-                                <rect key="frame" x="99" y="139" width="217" height="173"/>
+                                <rect key="frame" x="115" y="172" width="185" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9MI-3S-gar">
-                                <rect key="frame" x="175" y="376" width="65" height="36"/>
+                                <rect key="frame" x="174" y="368" width="65" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Lora-Regular" family="Lora" pointSize="18"/>
                                 <state key="normal" title="Submit!">
@@ -508,38 +508,30 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i6Z-p6-QzG">
-                                <rect key="frame" x="92" y="420" width="231" height="72"/>
+                                <rect key="frame" x="92" y="412" width="231" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Lora-Regular" family="Lora" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9VB-AI-iPr">
-                                <rect key="frame" x="56" y="534" width="75" height="75"/>
+                                <rect key="frame" x="56" y="529" width="91" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="happy_sammy"/>
                                 <connections>
                                     <action selector="happyy:" destination="5J7-iu-INN" eventType="touchUpInside" id="m60-j4-oZl"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dZ9-Fa-ViS">
-                                <rect key="frame" x="170" y="534" width="75" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="neutral_sammy"/>
-                                <connections>
-                                    <action selector="neutral:" destination="5J7-iu-INN" eventType="touchUpInside" id="cG7-Aa-8kh"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v8S-CK-0cE">
-                                <rect key="frame" x="291" y="534" width="75" height="75"/>
+                                <rect key="frame" x="269" y="529" width="91" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="sad_sammy"/>
+                                <state key="normal" title="Button" image="SOBBING"/>
                                 <connections>
                                     <action selector="sadge:" destination="5J7-iu-INN" eventType="touchUpInside" id="IIB-Sq-WqB"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jsx-je-AOO">
-                                <rect key="frame" x="41" y="625" width="332" height="109"/>
+                                <rect key="frame" x="41" y="637" width="332" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Lora-Regular" family="Lora" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -552,15 +544,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eKW-R4-uGH">
-                                <rect key="frame" x="314" y="63" width="62" height="32"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eKW-R4-uGH">
+                                <rect key="frame" x="323" y="52" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Lora-Bold" family="Lora" pointSize="15"/>
-                                <state key="normal" title="calendar">
+                                <state key="normal" title="calendar" image="calnder">
                                     <color key="titleColor" red="0.52619779109999998" green="0.61692798140000005" blue="0.70561796430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="86Y-Hm-SUT" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="SxK-Vi-OXX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P9A-CQ-5qD">
+                                <rect key="frame" x="162" y="529" width="91" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="neutral_sammy"/>
+                                <connections>
+                                    <action selector="happyy:" destination="5J7-iu-INN" eventType="touchUpInside" id="aLC-sm-rbr"/>
+                                    <action selector="neutral:" destination="5J7-iu-INN" eventType="touchUpInside" id="ekg-rZ-zN8"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -662,11 +662,12 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.94855493310000005" green="0.91122704740000005" blue="0.9146088362" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.93414163589999999" green="0.78762519360000005" blue="0.76972395179999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.40686812999999999" green="0.21505540610000001" blue="0.036125700920000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </stackView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="6fE-xa-Kpu">
                                 <rect key="frame" x="0.0" y="179.5" width="414" height="682.5"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.95206469299999996" green="0.92149603369999999" blue="0.9213840365" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="2" minimumInteritemSpacing="2" id="JT9-O1-Cah">
                                     <size key="itemSize" width="128" height="128"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -705,7 +706,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IL8-aK-V2U">
                                 <rect key="frame" x="-1" y="765" width="415" height="131"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.48324066399999999" green="0.57182252410000001" blue="0.66545903679999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.92376101020000001" green="0.76248055699999995" blue="0.74084275960000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -724,6 +725,7 @@
                                 <state key="normal" title="Sammy_Nav" image="sammy_navbar"/>
                                 <connections>
                                     <action selector="sammyBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oIe-Vb-wOr"/>
+                                    <segue destination="5J7-iu-INN" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="RXW-3a-BTz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dk7-fS-NRR">
@@ -737,7 +739,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nvc-GM-nBR"/>
-                        <color key="backgroundColor" red="0.93333339689999995" green="0.89803922179999995" blue="0.90196073060000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.92376101020000001" green="0.76248055699999995" blue="0.74084275960000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6gk-PU-zS4" firstAttribute="top" secondItem="v0r-gy-UWj" secondAttribute="bottom" constant="6" id="1fz-s5-6cS"/>
                             <constraint firstItem="nvc-GM-nBR" firstAttribute="trailing" secondItem="6gk-PU-zS4" secondAttribute="trailing" id="5OG-BU-j5I"/>
@@ -777,16 +779,18 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Q2D-GS-OVD"/>
-        <segue reference="DRN-GX-MnW"/>
-        <segue reference="I7W-8u-i50"/>
-        <segue reference="cyT-kq-Zyl"/>
+        <segue reference="RXW-3a-BTz"/>
+        <segue reference="rSR-XE-tPH"/>
+        <segue reference="pFP-UH-aOn"/>
+        <segue reference="32d-Pm-ebW"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="SOBBING" width="1014" height="1146"/>
         <image name="about mellow" width="471" height="96"/>
         <image name="aboutus" width="330" height="73"/>
         <image name="alex_navbar" width="843" height="789"/>
         <image name="back" width="2048" height="2048"/>
+        <image name="calnder" width="1938" height="1782"/>
         <image name="cancel" width="2048" height="2048"/>
         <image name="day_homepage" width="750" height="1334"/>
         <image name="gear_homepage" width="2048" height="2048"/>
@@ -800,7 +804,6 @@
         <image name="pill_logo_navbar" width="1099" height="1772"/>
         <image name="question_homepage" width="2048" height="2048"/>
         <image name="right_facing_sammy" width="2048" height="2048"/>
-        <image name="sad_sammy" width="1014" height="1146"/>
         <image name="sammy_navbar" width="1111" height="1295"/>
         <image name="sreya" width="843" height="789"/>
         <image name="teeny arrow" width="30" height="30"/>
