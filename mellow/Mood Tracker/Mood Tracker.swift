@@ -13,7 +13,6 @@ class Mood_Tracker: UIViewController, UICollectionViewDelegate, UICollectionView
     
     @IBOutlet weak var collectionView: UICollectionView!
     
-    var selectedDate = Date()
     var totalSquares = [String]()
     
     
